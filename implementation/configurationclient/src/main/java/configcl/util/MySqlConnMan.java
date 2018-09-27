@@ -5,7 +5,7 @@ public class MySqlConnMan {
     public static Connection establishConnection(String host, String port, String usr, String pwd) {
         Connection con = null;
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection(
                     "jdbc:mysql://" + host + ":" + port + "/generatedata", usr, pwd);
         } catch (SQLException ex) {
