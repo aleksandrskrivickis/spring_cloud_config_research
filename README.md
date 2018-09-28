@@ -8,6 +8,8 @@ http://127.0.0.1:8080/message
 
 http://127.0.0.1:8080/connectmysql
 
+http://localhost:8888/application/production
+
 
 
 /{application}/{profile}[/{label}]
@@ -15,3 +17,15 @@ http://127.0.0.1:8080/connectmysql
 /{label}/{application}-{profile}.yml
 /{application}-{profile}.properties
 /{label}/{application}-{profile}.properties
+/{label}/{application}-{profile}.properties
+
+
+https://start.spring.io/
+
+
+
+REFERENCES:
+https://cloud.spring.io/spring-cloud-static/Edgware.SR2/single/spring-cloud.html#_jdbc_backend
+https://medium.com/@nani2ratna/spring-cloud-config-server-with-jdbc-55de8f7ec86d
+https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#boot-features-sql
+
