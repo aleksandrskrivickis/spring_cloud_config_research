@@ -8,5 +8,12 @@ http://127.0.0.1:8080/message
 
 http://127.0.0.1:8080/connectmysql
 
+http://localhost:8888/application/production
 
 
+
+/{application}/{profile}[/{label}]
+/{application}-{profile}.yml
+/{label}/{application}-{profile}.yml
+/{application}-{profile}.properties
+/{label}/{application}-{profile}.properties
