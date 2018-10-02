@@ -1,3 +1,7 @@
+label: latest
+profile: production
+application: properties
+
 # spring_cloud_config_research
 
 http://127.0.0.1:8080/
@@ -20,9 +24,9 @@ https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#b
 
 /{application}/{profile}[/{label}]
 
-/{application}-{profile}.yml
+/{application}-{profile}.yml/json
 
-/{label}/{application}-{profile}.yml
+/{label}/{application}-{profile}.yml/json
 
 /{application}-{profile}.properties
 

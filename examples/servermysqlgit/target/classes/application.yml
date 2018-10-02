@@ -1,0 +1,70 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: latest
+      profile: production
+      server:
+        default-label: latest
+        default-profile: production
+        jdbc:
+          order: 0
+          sql: SELECT `key`, `value` FROM `properties` WHERE `application`=? AND `profile`=? AND `label`=?;
+        git:
+          uri: https://github.com/aleksandrskrivickis/spring_cloud_config_research_config.git
+          force-pull: true
+          order: 1
+  #        refresh:
+  #            enabled: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+      connection-timeout: 5000
+      maximum-pool-size: 10
+    password:
+    platform: mysql
+    url: jdbc:mysql://localhost:3306/properties-service
+    username: root
+  jackson:
+    serialization:
+      indent_output: true
+  profiles:
+    active: jdbc, git
+
+
+
+#server:
+#  port: 8888
+#spring:
+#  application:
+#    name: config-server
+#  cloud:
+#    config:
+#      label: master
+#      profile: local
+#      server:
+#        default-label: latest
+#        default-profile: production
+#        jdbc:
+#          order: 0
+#          sql: SELECT `key`, `value` FROM `properties` WHERE `application`=? AND `profile`=? AND `label`=?;
+#  #        refresh:
+#  #            enabled: false
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    hikari:
+#      connection-timeout: 5000
+#      maximum-pool-size: 10
+#    password:
+#    platform: mysql
+#    url: jdbc:mysql://localhost:3306/properties-service
+#    username: root
+#  jackson:
+#    serialization:
+#      indent_output: true
+#  profiles:
+#    active: jdbc
+

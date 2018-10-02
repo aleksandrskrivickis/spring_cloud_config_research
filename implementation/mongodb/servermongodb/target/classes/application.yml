@@ -1,0 +1,19 @@
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+  data:
+    mongodb:
+      uri: mongodb://localhost/properties-service
+
+server:
+  port: 8888
+
+
+#spring:
+#  data:
+#    mongodb:
+#      uri: mongodb://localhost/config-db
+#
+#server:
+#  port: 8888

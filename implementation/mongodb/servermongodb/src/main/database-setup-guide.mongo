@@ -1,0 +1,52 @@
+use properties-service;
+
+db.properties.insert({
+  "label": "latest",
+  "profile": "production",
+  "source": {
+    "user": {
+      "max-connections": 1,
+      "timeout-ms": 3600,
+	  "json-data": {
+		"title":"exampleglossary",
+		"GlossDiv":{
+		"title":"S",
+		"GlossList":{
+		"GlossEntry":{
+		"ID":"SGML",
+		"SortAs":"SGML",
+		"GlossTerm":"StandardGeneralizedMarkupLanguage",
+		"Acronym":"SGML",
+		"Abbrev":"ISO8879:1986",
+		"GlossDef":{
+		"para":"Ameta-markuplanguage,usedtocreatemarkuplanguagessuchasDocBook.",
+		"GlossSeeAlso":["GML","XML"]
+		},
+		"GlossSee":"markup"
+		}
+		}
+		}
+		}
+    }
+  }
+});
+
+
+
+#Default set-up file from manual
+use config-db;
+
+db.gateway.insert({
+  "label": "master",
+  "profile": "prod",
+  "source": {
+    "user": {
+      "max-connections": 1,
+      "timeout-ms": 3600
+    }
+  }
+});
+
+
+http://localhost:8888/master/gateway-prod.properties
+http://localhost:8888/latest/properties-production.properties
