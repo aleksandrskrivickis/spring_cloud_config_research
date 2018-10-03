@@ -67,4 +67,3 @@ spring:
 #      indent_output: true
 #  profiles:
 #    active: jdbc
-
