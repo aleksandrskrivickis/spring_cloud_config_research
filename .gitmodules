@@ -1,0 +1,3 @@
+[submodule "spring_cloud_config_research_config"]
+	path = spring_cloud_config_research_config
+	url = https://github.com/aleksandrskrivickis/spring_cloud_config_research_config.git
