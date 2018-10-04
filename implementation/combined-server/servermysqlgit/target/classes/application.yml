@@ -2,21 +2,28 @@ server:
   port: 8888
 spring:
   application:
-    name: config-server
+    name: properties
   cloud:
+    custom:
+      config:
+        enabled: true
     config:
-      label: latest
-      profile: production
+      discovery:
+        enabled: true
       server:
-        default-label: latest
-        default-profile: production
+        bootstrap: true
+#        default-label: latest
+#        default-profile: production
         jdbc:
-          order: 0
+          order: 1
+          #Workaround to combine Git and MySQL by ignoring label, it allows to succesfully serve configuration to Cloud Config Client
           sql: SELECT `key`, `value` FROM `properties` WHERE `application`=? AND `profile`=? AND `label`=?;
+#          sql: SELECT `key`, `value` FROM `properties` WHERE `application`=? AND `profile`=? OR `label`=?;
         git:
           uri: https://github.com/aleksandrskrivickis/spring_cloud_config_research_config.git
           force-pull: true
-          order: 1
+          order: 0
+  # Restricting refresh helped with start-up issues before.
   #        refresh:
   #            enabled: false
   datasource:
@@ -36,21 +43,31 @@ spring:
 
 
 
+
+
 #server:
 #  port: 8888
 #spring:
 #  application:
-#    name: config-server
+#    name: properties
 #  cloud:
+#    custom:
+#      config:
+#        enabled: true
 #    config:
-#      label: master
-#      profile: local
+#      discovery:
+#        enabled: true
 #      server:
-#        default-label: latest
-#        default-profile: production
+#        bootstrap: true
+##        default-label: latest
+##        default-profile: production
 #        jdbc:
 #          order: 0
 #          sql: SELECT `key`, `value` FROM `properties` WHERE `application`=? AND `profile`=? AND `label`=?;
+#        git:
+#          uri: https://github.com/aleksandrskrivickis/spring_cloud_config_research_config.git
+#          force-pull: true
+#          order: 0
 #  #        refresh:
 #  #            enabled: false
 #  datasource:
@@ -66,5 +83,4 @@ spring:
 #    serialization:
 #      indent_output: true
 #  profiles:
-#    active: jdbc
-
+#    active: jdbc, git
