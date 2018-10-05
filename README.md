@@ -21,13 +21,3 @@ https://cloud.spring.io/spring-cloud-static/Edgware.SR2/single/spring-cloud.html
 https://medium.com/@nani2ratna/spring-cloud-config-server-with-jdbc-55de8f7ec86d
 
 https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#boot-features-sql
-
-/{application}/{profile}[/{label}]
-
-/{application}-{profile}.yml/json
-
-/{label}/{application}-{profile}.yml/json
-
-/{application}-{profile}.properties
-
-/{label}/{application}-{profile}.properties

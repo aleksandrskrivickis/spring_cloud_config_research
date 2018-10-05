@@ -1,0 +1,86 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: properties
+  cloud:
+    custom:
+      config:
+        enabled: true
+    config:
+      discovery:
+        enabled: true
+      server:
+        bootstrap: true
+#        default-label: latest
+#        default-profile: production
+        jdbc:
+          order: 1
+          #Workaround to combine Git and MySQL by ignoring label, it allows to succesfully serve configuration to Cloud Config Client
+          sql: SELECT `key`, `value` FROM `properties` WHERE `application`=? AND `profile`=? AND `label`=?;
+#          sql: SELECT `key`, `value` FROM `properties` WHERE `application`=? AND `profile`=? OR `label`=?;
+        git:
+          uri: https://github.com/aleksandrskrivickis/spring_cloud_config_research_config.git
+          force-pull: true
+          order: 0
+  # Restricting refresh helped with start-up issues before.
+  #        refresh:
+  #            enabled: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+      connection-timeout: 5000
+      maximum-pool-size: 10
+    password:
+    platform: mysql
+    url: jdbc:mysql://localhost:3306/properties-service
+    username: root
+  jackson:
+    serialization:
+      indent_output: true
+  profiles:
+    active: jdbc, git
+
+
+
+
+
+#server:
+#  port: 8888
+#spring:
+#  application:
+#    name: properties
+#  cloud:
+#    custom:
+#      config:
+#        enabled: true
+#    config:
+#      discovery:
+#        enabled: true
+#      server:
+#        bootstrap: true
+##        default-label: latest
+##        default-profile: production
+#        jdbc:
+#          order: 0
+#          sql: SELECT `key`, `value` FROM `properties` WHERE `application`=? AND `profile`=? AND `label`=?;
+#        git:
+#          uri: https://github.com/aleksandrskrivickis/spring_cloud_config_research_config.git
+#          force-pull: true
+#          order: 0
+#  #        refresh:
+#  #            enabled: false
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    hikari:
+#      connection-timeout: 5000
+#      maximum-pool-size: 10
+#    password:
+#    platform: mysql
+#    url: jdbc:mysql://localhost:3306/properties-service
+#    username: root
+#  jackson:
+#    serialization:
+#      indent_output: true
+#  profiles:
+#    active: jdbc, git

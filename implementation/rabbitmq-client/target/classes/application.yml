@@ -1,0 +1,16 @@
+spring:
+  rabbitmq:
+    host: localhost
+    password: guest
+    username: guest
+
+#  spring.rabbitmq.host=localhost # RabbitMQ host.
+#  ...
+#    spring.rabbitmq.password= # Login to authenticate against the broker.
+#    spring.rabbitmq.port=5672 # RabbitMQ port.
+#  ...
+#    spring.rabbitmq.username= # Login user to authenticate to the broker.
+
+
+#  To connect to a cluster, use
+#  spring.rabbitmq.addresses= # Comma-separated list of addresses to which the client should connect.

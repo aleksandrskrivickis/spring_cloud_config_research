@@ -1,14 +1,15 @@
 package configcl;
 
 import configcl.util.MySqlConnMan;
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.sql.Connection;
-import java.util.HashMap;
+import java.util.*;
 
 @RefreshScope
 @RestController
@@ -20,63 +21,82 @@ class Controller {
 //        return MySqlConnMan.selectData(conn);
 //    }
 
-//    @Value("${message}")
-//    private String message;
-//    @RequestMapping("/message")
-//    String getMessage() {
-//        return this.message;
-//    }
+
+//    Test urls:
+//    http://localhost:8888/latest/properties-production.json
+//    http://127.0.0.1:8080/swagger-ui.html#
+//    http://localhost:8080/user
+//    http://localhost:8080/user/keys
+//    http://localhost:8080/user/json-data
+
+
+    @Value("${message}")
+    private String message;
+    @RequestMapping("/message")
+    String getMessage() {
+        return this.message;
+    }
 
     @Value("${MSSQL_HOST}")
-    private String mssql_host;
+    private String msSqlHost;
     @RequestMapping("/properties-production")
-    String getMessage() {
-        return this.mssql_host;
+    String getMsSqlHost() {
+        return this.msSqlHost;
     }
 
     @Value("${user}")
-    private String user_keys;
-    @RequestMapping("/user_keys")
-    String getUserJson(String user_json) {
+    private String userJson;
+    @RequestMapping("/user")
+    String getUserJson() {
+        return this.userJson;
+    }
+
+    @Value("${user}")
+    private String userKeys;
+    @RequestMapping("/user/keys")
+    String getUserKeys(String user_json) {
         String returnable = "";
-        JSONObject jsonObj = new JSONObject(this.user_keys);
+        JSONObject jsonObj = new JSONObject(this.userKeys);
         return jsonObj.names().toString();
     }
 
-//    @Value("${user.max-connections}")
-//    private String user_maxConnetions;
-//    @RequestMapping("/user_maxConnetions")
-//    String getUserMaxConnetions() {
-//        return this.user_maxConnetions;
-//    }
-//
-//    @Value("${CC_HOST}")
-//    private String CC_HOST;
-//    @RequestMapping("/CC_HOST")
-//    String getCcHost() {
-//        return this.CC_HOST;
-//    }
-//
-//    @Value("${CC_PORT}")
-//    private String CC_PORT;
-//    @RequestMapping("/CC_PORT")
-//    String getCcPort() {
-//        return this.CC_PORT;
-//    }
-//
-//    @Value("${MSSQL_HOST}")
-//    private String MSSQL_HOST;
-//    @RequestMapping("/MSSQL_HOST")
-//    String getMssqlHost() {
-//        return this.MSSQL_HOST;
-//    }
-//
-//    @Value("${MSSQL_TOKEN}")
-//    private String MSSQL_TOKEN;
-//    @RequestMapping("/MSSQL_TOKEN")
-//    String getMssqlToken() {
-//        return this.MSSQL_TOKEN;
-//    }
+    @Value("${user}")
+    private String userJson1;
+    @RequestMapping(value = "/user/{key}", method = { RequestMethod.GET})
+    @ResponseBody
+    public String getFoosBySimplePathWithPathVariable(
+            @PathVariable("key") String key) {
+            JSONObject jsonObj = new JSONObject(this.userJson1);
+            return jsonObj.get(key).toString();
+    }
+
+    @Value("${CC_HOST}")
+    private String CC_HOST;
+    @RequestMapping("/CC_HOST")
+    String getCcHost() {
+        return this.CC_HOST;
+    }
+
+    @Value("${CC_PORT}")
+    private String CC_PORT;
+    @RequestMapping("/CC_PORT")
+    String getCcPort() {
+        return this.CC_PORT;
+    }
+
+    @Value("${MSSQL_HOST}")
+    private String MSSQL_HOST;
+    @RequestMapping("/MSSQL_HOST")
+    String getMssqlHost() {
+        return this.MSSQL_HOST;
+    }
+
+    @Value("${MSSQL_TOKEN}")
+    private String MSSQL_TOKEN;
+    @RequestMapping("/MSSQL_TOKEN")
+    String getMssqlToken() {
+        return this.MSSQL_TOKEN;
+    }
 
     @RequestMapping("/")
     public HashMap index() {
