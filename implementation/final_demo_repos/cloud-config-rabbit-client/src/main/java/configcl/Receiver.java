@@ -1,11 +1,9 @@
-package rabbitmqcl;
+package configcl;
 
 import org.springframework.stereotype.Component;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.CountDownLatch;
-
-import java.util.concurrent.CountDownLatch;
-import org.springframework.stereotype.Component;
 
 @Component
 public class Receiver {
@@ -13,7 +11,7 @@ public class Receiver {
     private CountDownLatch latch = new CountDownLatch(1);
 
     public void receiveMessage(double message) {
-        System.out.println("Received <" + message + ">");
+        System.out.println(LocalDateTime.now() + " " + "Subscriber - received \"noise\" message <" + message + ">");
         latch.countDown();
     }
 
