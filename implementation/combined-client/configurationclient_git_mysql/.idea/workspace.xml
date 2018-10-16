@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1e6a261-053d-4c08-b56a-4940be7829e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../rabbitmq-client/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../rabbitmq-client/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../rabbitmq-client/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../rabbitmq-client/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../rabbitmq-client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../rabbitmq-client/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../rabbitmq-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../rabbitmq-client/rabbitmq-client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../rabbitmq-client/src/main/java/rabbitmqcl/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../rabbitmq-client/src/main/java/rabbitmqcl/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../rabbitmq-client/src/main/java/rabbitmqcl/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../rabbitmq-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../examples/configserver" beforeDir="false" afterPath="$PROJECT_DIR$/../../../examples/configserver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/configcl/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configcl/Controller.java" afterDir="false" />
@@ -23,10 +10,20 @@
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/configcl/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configcl/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../combined-server/servermysqlgit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-server/servermysqlgit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/src/main/java/configsrv/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/src/main/java/configsrv/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/target/classes/configsrv/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/target/classes/configsrv/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/src/main/java/configcl/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/src/main/java/configcl/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/target/classes/configcl/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/target/classes/configcl/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/rabbitmq-noise-generator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/rabbitmq-noise-generator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mongodb/servermongodb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mongodb/servermongodb/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../supporting documents/proof of concept.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../supporting documents/proof of concept.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../supporting documents/spring_cloud_config_research.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../supporting documents/spring_cloud_config_research.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../supporting documents/spring_cloud_config_research.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../supporting documents/spring_cloud_config_research.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../supporting documents/~$oof of concept.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../supporting documents/~WRL0003.tmp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,23 +37,24 @@
     <session id="1222330550">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="805" />
-          <entry key="properties" value="172" />
+          <entry key="java" value="902" />
+          <entry key="properties" value="238" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="805" />
-          <entry key="Properties" value="172" />
+          <entry key="JAVA" value="902" />
+          <entry key="Properties" value="238" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -95,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="7" selection-end-column="18" />
+            <state relative-caret-position="51">
+              <caret line="3" column="46" lean-forward="true" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -104,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+            <state relative-caret-position="51">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -113,8 +111,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/configcl/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="187">
+              <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="1037">
+              <caret line="61" column="48" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -160,6 +161,8 @@
       <find>git</find>
       <find>property</find>
       <find>label</find>
+      <find>actu</find>
+      <find>actuator</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -197,9 +200,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="width" value="981" />
-    <option name="height" value="1044" />
+    <option name="x" value="492" />
+    <option name="y" value="88" />
+    <option name="width" value="654" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -209,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -264,12 +267,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538638417775" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539342842679" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/FaceCutterAPI" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -336,17 +340,30 @@
       <workItem from="1538617537350" duration="6271000" />
       <workItem from="1538627947016" duration="5190000" />
       <workItem from="1538707139377" duration="70000" />
+      <workItem from="1539317000789" duration="763000" />
+      <workItem from="1539339885914" duration="2954000" />
+      <workItem from="1539522683880" duration="2251000" />
+      <workItem from="1539567699609" duration="860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24439000" />
+    <option name="totallyTimeSpent" value="31267000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3294621" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24755502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -355,11 +372,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901832" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30454043" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21262458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -601,31 +618,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
+        <state relative-caret-position="51">
+          <caret line="3" column="46" lean-forward="true" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/configcl/util/MySqlConnMan.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -636,23 +646,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/configcl/util/MySqlConnMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/configcl/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="187">
+          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-            <element signature="e#1953#1954#0" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2149#2150#0" expanded="true" />
-            <element signature="e#2276#2277#0" expanded="true" />
-            <element signature="e#2315#2316#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

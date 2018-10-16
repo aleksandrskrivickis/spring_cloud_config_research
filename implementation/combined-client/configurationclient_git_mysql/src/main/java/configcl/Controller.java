@@ -30,73 +30,62 @@ class Controller {
 //    http://localhost:8080/user/json-data
 
 
-    @Value("${message}")
-    private String message;
-    @RequestMapping("/message")
-    String getMessage() {
-        return this.message;
+    @Value("${config_identifier.source_database: missing}")
+    private String propertySources;
+    @RequestMapping("/1")
+    String getpropertySources() {
+        return this.propertySources;
     }
 
-    @Value("${MSSQL_HOST}")
-    private String msSqlHost;
-    @RequestMapping("/properties-production")
-    String getMsSqlHost() {
-        return this.msSqlHost;
+    @Value("${paragraph: missing}")
+    private String configService;
+    @RequestMapping("/2")
+    String getconfigService() {
+        return this.configService;
     }
 
-    @Value("${user}")
-    private String userJson;
-    @RequestMapping("/user")
-    String getUserJson() {
-        return this.userJson;
+    @Value("${object.array[1].boolean: missing}")
+    private String properties;
+    @RequestMapping("/3")
+    String getproperties() {
+        return this.properties;
     }
+//
+//    @Value("${MSSQL_HOST}")
+//    private String msSqlHost;
+//    @RequestMapping("/properties-production")
+//    String getMsSqlHost() {
+//        return this.msSqlHost;
+//    }
 
-    @Value("${user}")
-    private String userKeys;
-    @RequestMapping("/user/keys")
-    String getUserKeys(String user_json) {
-        String returnable = "";
-        JSONObject jsonObj = new JSONObject(this.userKeys);
-        return jsonObj.names().toString();
-    }
 
-    @Value("${user}")
-    private String userJson1;
-    @RequestMapping(value = "/user/{key}", method = { RequestMethod.GET})
-    @ResponseBody
-    public String getFoosBySimplePathWithPathVariable(
-            @PathVariable("key") String key) {
-            JSONObject jsonObj = new JSONObject(this.userJson1);
-            return jsonObj.get(key).toString();
-    }
-
-    @Value("${CC_HOST}")
-    private String CC_HOST;
-    @RequestMapping("/CC_HOST")
-    String getCcHost() {
-        return this.CC_HOST;
-    }
-
-    @Value("${CC_PORT}")
-    private String CC_PORT;
-    @RequestMapping("/CC_PORT")
-    String getCcPort() {
-        return this.CC_PORT;
-    }
-
-    @Value("${MSSQL_HOST}")
-    private String MSSQL_HOST;
-    @RequestMapping("/MSSQL_HOST")
-    String getMssqlHost() {
-        return this.MSSQL_HOST;
-    }
-
-    @Value("${MSSQL_TOKEN}")
-    private String MSSQL_TOKEN;
-    @RequestMapping("/MSSQL_TOKEN")
-    String getMssqlToken() {
-        return this.MSSQL_TOKEN;
-    }
+//    @Value("${CC_HOST}")
+//    private String CC_HOST;
+//    @RequestMapping("/CC_HOST")
+//    String getCcHost() {
+//        return this.CC_HOST;
+//    }
+//
+//    @Value("${CC_PORT}")
+//    private String CC_PORT;
+//    @RequestMapping("/CC_PORT")
+//    String getCcPort() {
+//        return this.CC_PORT;
+//    }
+//
+//    @Value("${MSSQL_HOST}")
+//    private String MSSQL_HOST;
+//    @RequestMapping("/MSSQL_HOST")
+//    String getMssqlHost() {
+//        return this.MSSQL_HOST;
+//    }
+//
+//    @Value("${MSSQL_TOKEN}")
+//    private String MSSQL_TOKEN;
+//    @RequestMapping("/MSSQL_TOKEN")
+//    String getMssqlToken() {
+//        return this.MSSQL_TOKEN;
+//    }
 
     @RequestMapping("/")
     public HashMap index() {

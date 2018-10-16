@@ -2,29 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f1b013-da7e-45dc-a007-2716f4efcef4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../docker_containers.bash" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/src/main/database-setup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/hk/com/hsbc/peak/poc/configclient/util/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mongodb/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mongodb/.idea/mongodb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mongodb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mongodb/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../examples/configserver" beforeDir="false" afterPath="$PROJECT_DIR$/../../../examples/configserver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/src/main/java/configcl/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/src/main/java/configcl/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/target/classes/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/target/classes/configcl/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/target/classes/configcl/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/configcl/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/configcl/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/configcl/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/configcl/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rabbit-noise-message-producer/rabbit-noise-message-producer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/src/main/java/rabbitmqcl/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/src/main/java/rabbitmqcl/Receiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/src/main/java/rabbitmqcl/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/target/classes/rabbitmqcl/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/target/classes/rabbitmqcl/Receiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rabbitmq-client/target/classes/rabbitmqcl/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configsrv/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hk/com/hsbc/peak/poc/configclient/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configsrv/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configsrv/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/configcl/Commons/LatestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/configcl/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/hk/com/hsbc/peak/poc/configclient/controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/configcl/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/hk/com/hsbc/peak/poc/configclient/util/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/configcl/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/hk/com/hsbc/peak/poc/configclient/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/configcl/util/JsonMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/configcl/util/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/hk/com/hsbc/peak/poc/configclient/util/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/configcl/Commons/LatestConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/configcl/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/configcl/Receiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/configcl/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/configcl/util/JsonMapper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/configcl/util/JsonMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/configcl/util/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker_containers.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-noise-generator/src/main/java/rabbitmqcl/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-noise-generator/src/main/java/hk/com/hsbc/peak/poc/configclient/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-noise-generator/src/main/java/rabbitmqcl/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-noise-generator/src/main/java/hk/com/hsbc/peak/poc/configclient/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-noise-generator/src/main/java/rabbitmqcl/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-noise-generator/src/main/java/hk/com/hsbc/peak/poc/configclient/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mongodb/servermongodb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mongodb/servermongodb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mongodb/servermongodb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mongodb/servermongodb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mongodb/servermongodb/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mongodb/servermongodb/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../supporting documents/proof of concept.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../supporting documents/proof of concept.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../supporting documents/~$oof of concept.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../supporting documents/~$oof of concept.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../supporting documents/~WRL0003.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../supporting documents/~WRL0003.tmp" afterDir="false" />
@@ -121,49 +142,89 @@
     <session id="-1130799221">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="2" />
-          <entry key="yml" value="2" />
+          <entry key="java" value="3" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="3" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="2" />
-          <entry key="YAML" value="2" />
+          <entry key="JAVA" value="3" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="3" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="14" />
           <entry key="properties" value="142" />
-          <entry key="xml" value="2" />
-          <entry key="yml" value="4" />
+          <entry key="xml" value="3" />
+          <entry key="yml" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="14" />
           <entry key="Properties" value="142" />
-          <entry key="XML" value="2" />
-          <entry key="YAML" value="4" />
+          <entry key="XML" value="3" />
+          <entry key="YAML" value="84" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="76" column="12" lean-forward="true" selection-start-line="9" selection-end-line="76" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hk/com/hsbc/peak/poc/configclient/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -183,6 +244,11 @@
       <find>sql</find>
       <find>jgit</find>
       <find>anonymous</find>
+      <find>properties-service</find>
+      <find>refres</find>
+      <find>bus</find>
+      <find>mongo</find>
+      <find>mo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,10 +261,11 @@
         <option value="$PROJECT_DIR$/src/main/java/configsrv/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/bootstrapservercomposite.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/src/main/java/configsrv/main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/hk/com/hsbc/peak/poc/configclient/main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -216,8 +283,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="297" />
-    <option name="y" value="140" />
+    <option name="x" value="712" />
+    <option name="y" value="292" />
     <option name="width" value="981" />
     <option name="height" value="1044" />
   </component>
@@ -229,7 +296,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,7 +327,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="configsrv" type="462c0819:PsiDirectoryNode" />
+              <item name="configclient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-config-git-mysql-rabbit-server" type="b2602c69:ProjectViewProjectNode" />
@@ -275,13 +341,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538738631066" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rabbitmq-noise-generator" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539685814105" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -300,7 +367,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.main">
+    <configuration name="main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-mysql-git" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hk.com.hsbc.peak.poc.configclient.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="server-mysql-git" />
       <extension name="coverage">
@@ -314,6 +388,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.main" />
+      <item itemvalue="Spring Boot.main (1)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.main" />
@@ -339,12 +417,16 @@
       <workItem from="1538707852883" duration="1532000" />
       <workItem from="1538711540049" duration="914000" />
       <workItem from="1538717722499" duration="7320000" />
-      <workItem from="1538965449595" duration="7933000" />
+      <workItem from="1538965449595" duration="9744000" />
+      <workItem from="1539139674159" duration="926000" />
+      <workItem from="1539314846522" duration="12791000" />
+      <workItem from="1539522622869" duration="2233000" />
+      <workItem from="1539567562231" duration="17093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49899000" />
+    <option name="totallyTimeSpent" value="84753000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,9 +438,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14669926" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28178138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -367,7 +450,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23698781" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30244756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -451,34 +534,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/configsrv/TestController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/configsrv/main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hk/com/hsbc/peak/poc/configclient/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-731">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="102">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+        <state relative-caret-position="198">
+          <caret line="76" column="12" lean-forward="true" selection-start-line="9" selection-end-line="76" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-end-line="73" />
         </state>
       </provider>
     </entry>

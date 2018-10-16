@@ -1,0 +1,28 @@
+#logging:
+#  level:
+#    org.springframework: DEBUG
+
+spring:
+  profiles:
+    active: git
+  cloud:
+    config:
+      discovery:
+        enabled: true
+      server:
+        bootstrap: true
+        git:
+          uri: https://github.com/aleksandrskrivickis/spring_cloud_config_research_config.git
+          searchPaths: '{application}'
+          force-pull: false
+          order: 0
+  jackson:
+    serialization:
+      indent_output: true
+  data:
+    mongodb:
+      uri: mongodb://cloudconfig:H1AEZ2Rqu4kgXh6CSDvVaEQctNu60rnhxwrXmjBmb4fEIHcrNFyu9kltzEnq8zVocmUvOWQcdVQoVfzIJqqm7g==@cloudconfig.documents.azure.com:10255/?ssl=true&replicaSet=globaldb
+      database: properties-service
+
+server:
+  port: 8888

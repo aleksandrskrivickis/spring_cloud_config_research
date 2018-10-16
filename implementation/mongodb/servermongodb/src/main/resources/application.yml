@@ -8,7 +8,7 @@ spring:
       indent_output: true
   data:
     mongodb:
-      uri: mongodb://localhost/properties-service
+      uri: mongodb://cba58209-0ee0-4-231-b9ee:JLEwlnVOAabnY1oFpgaVBu8MYzapBSVqm8YrfkDgKjTCBmf5oAA83AiZL1vHkSseo4RWb9buzzFTwclXeJfibQ==@cba58209-0ee0-4-231-b9ee.documents.azure.com:10255/?ssl=true&replicaSet=globaldb
 
 server:
   port: 8888

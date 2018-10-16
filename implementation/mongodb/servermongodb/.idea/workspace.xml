@@ -2,15 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c51e0bb7-43b6-4860-b326-38aef850e388" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../combined-server/servermysqlgit/src/main/java/configsrv/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../examples/configserver" beforeDir="false" afterPath="$PROJECT_DIR$/../../../examples/configserver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../combined-server/servermysqlgit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-server/servermysqlgit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../combined-server/servermysqlgit/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-server/servermysqlgit/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../combined-server/servermysqlgit/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-server/servermysqlgit/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/src/main/java/configcl/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/src/main/java/configcl/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/target/classes/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/target/classes/configcl/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../combined-client/configurationclient_git_mysql/target/classes/configcl/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/src/main/java/configsrv/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/src/main/java/configsrv/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/target/classes/configsrv/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-git-mysql-rabbit-server/target/classes/configsrv/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/src/main/java/configcl/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/src/main/java/configcl/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/target/classes/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/target/classes/configcl/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/cloud-config-rabbit-client/target/classes/configcl/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/docker_containers.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final_demo_repos/rabbitmq-noise-generator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final_demo_repos/rabbitmq-noise-generator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../supporting documents/proof of concept.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../supporting documents/proof of concept.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../supporting documents/~$oof of concept.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../supporting documents/~$oof of concept.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../supporting documents/~WRL0003.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../supporting documents/~WRL0003.tmp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,45 +40,46 @@
     <session id="-1402363197">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="57" />
           <entry key="mongo" value="57" />
-          <entry key="xml" value="4" />
-          <entry key="yml" value="54" />
+          <entry key="xml" value="10" />
+          <entry key="yml" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="57" />
           <entry key="PLAIN_TEXT" value="57" />
-          <entry key="XML" value="4" />
-          <entry key="YAML" value="54" />
+          <entry key="XML" value="10" />
+          <entry key="YAML" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
           <entry key="md" value="1" />
           <entry key="mongo" value="2" />
           <entry key="xml" value="3" />
-          <entry key="yml" value="4" />
+          <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="3" />
-          <entry key="YAML" value="4" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -74,11 +91,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="148">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/configsrv/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -94,8 +132,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mongo</find>
       <find>Spring Snapshots</find>
+      <find>mongodb</find>
+      <find>mongo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,12 +143,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/database-setup.md" />
         <option value="$PROJECT_DIR$/src/main/database-setup.mongo" />
         <option value="$PROJECT_DIR$/src/main/database-setup-guide.mongo" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/configsrv/main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -127,7 +166,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="701" />
+    <option name="x" value="738" />
     <option name="y" value="132" />
     <option name="width" value="981" />
     <option name="height" value="1044" />
@@ -138,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,6 +222,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,17 +281,19 @@
       <workItem from="1538454733664" duration="6738000" />
       <workItem from="1538462680055" duration="1699000" />
       <workItem from="1538557356239" duration="413000" />
+      <workItem from="1539317972313" duration="287000" />
+      <workItem from="1539572700098" duration="1180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8850000" />
+    <option name="totallyTimeSpent" value="10317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -294,11 +335,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/database-setup-guide.mongo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="68">
@@ -307,28 +343,33 @@
           <second_editor />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/configsrv/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="79" lean-forward="true" selection-start-line="4" selection-start-column="79" selection-end-line="4" selection-end-column="79" />
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="148">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
