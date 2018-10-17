@@ -2,7 +2,6 @@ package hk.com.hsbc.peak.poc.configclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.config.server.mongodb.EnableMongoConfigServer;
 
 

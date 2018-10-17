@@ -1,5 +1,6 @@
 server:
   port: 8888
+
 spring:
   cloud:
     config:
@@ -20,9 +21,7 @@ spring:
           searchPaths: '{application}'
           force-pull: false
           order: 0
-  # Restricting refresh helped with start-up issues before.
-  #        refresh:
-  #            enabled: false
+
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     hikari:
