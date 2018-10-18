@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f1b013-da7e-45dc-a007-2716f4efcef4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/database-setup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../examples/configserver" beforeDir="false" afterPath="$PROJECT_DIR$/../../../examples/configserver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/database-setup.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hk/com/hsbc/peak/poc/configclient/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hk/com/hsbc/peak/poc/configserver/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hk/com/hsbc/peak/poc/configclient/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud-config-git-mysql-rabbit-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-git-mysql-rabbit-server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/hk/com/hsbc/peak/poc/configclient/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/hk/com/hsbc/peak/poc/configclient/controllers/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/hk/com/hsbc/peak/poc/configclient/util/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/src/main/java/hk/com/hsbc/peak/poc/configclient/util/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/hk/com/hsbc/peak/poc/configclient/controllers/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/hk/com/hsbc/peak/poc/configclient/controllers/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/hk/com/hsbc/peak/poc/configclient/util/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/target/classes/hk/com/hsbc/peak/poc/configclient/util/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rabbitmq-noise-generator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-noise-generator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../supporting documents/proof of concept.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../supporting documents/proof of concept.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -156,6 +144,7 @@
     <session id="-752559972">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -232,8 +221,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="374">
+              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -384,7 +373,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539829751098" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539830862667" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -454,7 +443,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108650000" />
+    <option name="totallyTimeSpent" value="109292000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,9 +456,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21271394" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21271394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -478,7 +466,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28460687" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28460687" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -661,8 +649,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="374">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
         </state>
       </provider>
     </entry>
