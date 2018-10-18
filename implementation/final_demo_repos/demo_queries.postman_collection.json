@@ -143,6 +143,125 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Listing client's entire environment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/actuator/env",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"actuator",
+						"env"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Getting configuration for a specific application directly from Server",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8888/customer_verification_api/test/beta/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"customer_verification_api",
+						"test",
+						"beta",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Getting nested value",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/object.anotherkey.nestedkey.nestnestedkey",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"object.anotherkey.nestedkey.nestnestedkey"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Getting another nested value",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/object.anotherkey.nestedkey.anothernestnestedkey",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"object.anotherkey.nestedkey.anothernestnestedkey"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Getting data from MongoDB",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/config_identifier.source_mongodb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"config_identifier.source_mongodb"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
