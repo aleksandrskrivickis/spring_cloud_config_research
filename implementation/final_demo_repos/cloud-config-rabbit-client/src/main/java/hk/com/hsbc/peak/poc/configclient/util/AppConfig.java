@@ -25,6 +25,13 @@ public class AppConfig {
     @Value("${object.array[1].boolean: missing}")
     private String obj_array_1_bool;
 
+    @Value("${config_identifier.source_mongodb: missing}")
+    private boolean source_mongodb;
+
+    public boolean getSource_mongodb() {
+        return source_mongodb;
+    }
+
     public String getNestNestedKey() {
         return nestNestedKey;
     }

@@ -1,4 +1,4 @@
-package hk.com.hsbc.peak.poc.configclient;
+package hk.com.hsbc.peak.poc.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

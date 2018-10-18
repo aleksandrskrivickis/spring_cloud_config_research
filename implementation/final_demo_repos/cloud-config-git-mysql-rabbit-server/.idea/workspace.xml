@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="50f1b013-da7e-45dc-a007-2716f4efcef4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../examples/configserver" beforeDir="false" afterPath="$PROJECT_DIR$/../../../examples/configserver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/src/main/java/hk/com/hsbc/peak/poc/configclient/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/src/main/java/hk/com/hsbc/peak/poc/configclient/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/target/classes/hk/com/hsbc/peak/poc/configclient/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server/target/classes/hk/com/hsbc/peak/poc/configclient/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/configsrv/main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../cloud-config-rabbit-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config-rabbit-client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rabbitmq-noise-generator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-noise-generator/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -108,7 +102,7 @@
     <session id="-1130799221">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -122,16 +116,16 @@
         <counts>
           <entry key="java" value="3" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="3" />
-          <entry key="yml" value="3" />
+          <entry key="xml" value="4" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="3" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="3" />
-          <entry key="YAML" value="3" />
+          <entry key="XML" value="4" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -157,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="72" column="28" selection-start-line="72" selection-end-line="73" />
+            <state relative-caret-position="170">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="12" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -166,17 +160,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="170">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -208,6 +193,7 @@
       <find>mo</find>
       <find>monitor</find>
       <find>starter-config</find>
+      <find>actuator</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -306,7 +292,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539769281483" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539772587873" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloud-config-git-mongodb-rabbit-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -375,7 +361,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91141000" />
+    <option name="totallyTimeSpent" value="93759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,7 +376,7 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28178138" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28178138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -399,7 +385,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3688811" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29895106" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,13 +474,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/configsrv/TestController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="72" column="28" selection-start-line="72" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hk/com/hsbc/peak/poc/configclient/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -512,10 +491,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        <state relative-caret-position="170">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -32,32 +32,37 @@ class Controller {
     @Autowired
     private AppConfig appconfig;
 
+    @RequestMapping("/config_identifier.source_mongodb")
+    boolean getSource_mongodb() {
+        return appconfig.getSource_mongodb();
+    }
+
     @RequestMapping("/object.anotherkey.nestedkey.nestnestedkey")
-    String getconfig_identifier_1() {
+    String getConfig_identifier_1() {
         return appconfig.getNestNestedKey();
     }
 
 
     @RequestMapping("/object.anotherkey.nestedkey.anothernestnestedkey")
-    String getconfig_identifier() {
+    String getConfig_identifier() {
         return appconfig.getAnothernestnestedkey();
     }
 
 
     @RequestMapping("/1")
-    String getpropertySources() {
+    String getPropertySources() {
         return appconfig.getSource_database();
     }
 
 
     @RequestMapping("/2")
-    String getconfigService() {
+    String getConfigService() {
         return appconfig.getParagraph();
     }
 
 
     @RequestMapping("/3")
-    String getproperties() {
+    String getProperties() {
         return appconfig.getObj_array_1_bool();
     }
 
